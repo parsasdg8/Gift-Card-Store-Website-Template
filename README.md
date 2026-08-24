@@ -4,7 +4,7 @@ A modern, clean, and responsive Gift Card Store website template built with HTML
 
 This project is designed as a front-end template for online gift card stores, featuring a modern user interface, responsive design, dark/light mode, and a simple development setup.
 
-[🇮🇷 مشاهده نسخه فارسی](README-FA.md)
+[🇮🇷 مشاهده نسخه فارسی](README-fa.md)
 
 ---
 
