@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>DSgift | فروشگاه گیفت کارت</title>
+    <link rel="icon" type="image/png" href="./productPic/logonomy-1776982122719.jpeg">
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+<body>
+
+    <div class="menu-overlay" id="menuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="flex justify-between items-center mb-8">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 rounded-lg flex items-center justify-center">
+                    <img src="./productPic/logonomy-1776982122719.jpeg" alt="">
+                </div>
+                <span class="text-xl font-black text-black"><span class="text-orange-500">DS</span>gift</span>
+            </div>
+            <button id="closeMenuBtn" class="text-slate-500 text-2xl"><i class="fas fa-times"></i></button>
+        </div>
+        <nav class="flex flex-col gap-4">
+            <a href="#" class="hover:text-orange-500 text-base font-black py-2 border-b border-slate-100">خانه</a>
+            <a href="#" class="hover:text-orange-500 text-base font-black py-2 border-b border-slate-100">محصولات</a>
+            <a href="#" class="hover:text-orange-500 text-base font-black py-2 border-b border-slate-100">تعرفه‌ها</a>
+            <div class="flex flex-col gap-2 mt-4">
+                <a href="./login.html"><button class="border border-orange-500 text-orange-500 py-2 rounded-full text-sm font-semibold w-full">ورود</button></a>
+                <a href="./login.html"><button class="bg-orange-500 text-white py-2 rounded-full text-sm font-semibold w-full">ثبت‌نام</button></a>
+            </div>
+        </nav>
+    </div>
+
+    <header class="glass-header fixed top-0 w-full z-50 py-2 md:py-4 bg-white border-b">
+        <div class="container mx-auto px-3 md:px-6 flex justify-between items-center" style="max-width: 1200px;">
+            <div class="flex items-center gap-2 md:gap-3">
+                <div class="w-8 h-8 md:w-10 md:h-10 rounded-xl flex items-center justify-center overflow-hidden header-logo-img">
+                    <img src="./productPic/logonomy-1776982122719.jpeg" alt="لوگو" class="w-full h-full object-cover">
+                </div>
+                <span class="text-lg md:text-xl font-black text-black header-logo-text"><span class="text-orange-500">DS</span>gift</span>
+            </div>
+            
+            <nav class="desktop-nav hidden md:flex gap-4 lg:gap-6 text-slate-700">
+                <a href="#" class="hover:text-orange-500 text-sm lg:text-base transition-colors font-black">خانه</a>
+                <a href="#" class="hover:text-orange-500 text-sm lg:text-base transition-colors font-black">محصولات</a>
+                <a href="#" class="hover:text-orange-500 text-sm lg:text-base transition-colors font-black">تعرفه‌ها</a>
+            </nav>
+            
+            <div class="desktop-buttons hidden md:flex gap-1 md:gap-2 header-buttons">
+                <a href="./login.html"><button class="header-btn border border-orange-500 text-orange-500 px-3 md:px-5 py-1.5 md:py-2 rounded-full text-xs md:text-sm font-semibold hover:bg-orange-50">ورود</button></a>
+                <a href="./login.html"><button class="header-btn bg-orange-500 text-white px-3 md:px-5 py-1.5 md:py-2 rounded-full text-xs md:text-sm font-semibold hover:bg-orange-600">ثبت‌نام</button></a>
+            </div>
+            
+            <button id="menuToggle" class="md:hidden text-2xl text-orange-500" style="display: none;">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="pt-16 md:pt-24"></div>
+
+    <main class="container mx-auto px-3 md:px-6 py-4 md:py-8" style="max-width: 1200px;">
+        
+        <div class="rounded-2xl md:rounded-3xl p-4 md:p-8 mb-8 md:mb-12 relative overflow-hidden" style="background: linear-gradient(135deg, #fef3c7 0%, #fffbeb 50%, #ffffff 100%); box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.8) inset, 0 0 30px rgba(253, 230, 138, 0.3);">
+            <div class="flex flex-col md:flex-row-reverse justify-between items-center gap-4 md:gap-8 relative z-10">
+                <div class="w-full md:w-2/5 flex justify-center">
+                    <div class="w-40 h-40 md:w-64 md:h-64 rounded-2xl flex items-center justify-center" style="filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.08));">
+                        <img src="./productPic/Layer-4.webp" alt="گیفت کارت" class="hero-img w-full h-full rounded-2xl">
+                    </div>
+                </div>
+                <div class="w-full text-right">
+                    <h1 class="hero-title font-bold text-slate-800 sm:text-2xl lg:text-4xl">فروشگاه <span class="text-orange-500">گیفت کارت</span> <br> <span class="text-orange-500">DS</span>gift</h1>
+                    <p class="hero-subtitle text-slate-600 mt-2 md:mt-3 text-sm md:text-base">پلی استیشن، ایکس باکس، استیم و برندهای دیگر</p>
+                    <div class="flex flex-wrap gap-2 md:gap-3 mt-4 md:mt-6">
+                        <button class="btn-main bg-orange-500 text-white px-4 md:px-6 py-1.5 md:py-2.5 rounded-full font-bold shadow-md hover:shadow-lg transition-all">مشاهده تعرفه ها</button>
+                        <button class="btn-main border border-orange-500 text-orange-500 px-4 md:px-6 py-1.5 md:py-2.5 rounded-full font-bold hover:bg-orange-50 transition-all">مشاهده محصولات</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-md mx-auto mb-6">
+            <div class="relative">
+                <i class="fas fa-search absolute right-3 md:right-4 top-1/2 transform -translate-y-1/2 text-slate-400 text-sm md:text-base"></i>
+                <input type="text" placeholder="جستجوی گیفت کارت ..." class="search-input w-full border border-slate-200 rounded-full py-2 md:py-3 pr-8 md:pr-12 pl-3 md:pl-4 outline-none focus:border-orange-400">
+            </div>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-1.5 md:gap-2 mb-8 md:mb-10">
+            <button data-category="all" class="category-tab active bg-orange-500 text-white border-orange-500 px-3 md:px-5 py-1.5 md:py-2 rounded-full font-medium">همه</button>
+            <button data-category="ps" class="category-tab bg-white border border-slate-200 px-3 md:px-5 py-1.5 md:py-2 rounded-full font-medium text-slate-700">پلی استیشن</button>
+            <button data-category="steam" class="category-tab bg-white border border-slate-200 px-3 md:px-5 py-1.5 md:py-2 rounded-full font-medium text-slate-700">استیم</button>
+            <button data-category="xbox" class="category-tab bg-white border border-slate-200 px-3 md:px-5 py-1.5 md:py-2 rounded-full font-medium text-slate-700">اکس باکس</button>
+            <button data-category="itunes" class="category-tab bg-white border border-slate-200 px-3 md:px-5 py-1.5 md:py-2 rounded-full font-medium text-slate-700">اپل</button>
+        </div>
+
+        <div id="products-container" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4 mb-12 md:mb-16"></div>
+
+        <div class="grid grid-cols-2 gap-2 md:gap-4 mb-12 md:mb-16">
+            <div class="trust-card bg-white rounded-xl p-2 md:p-4 text-center border border-slate-100 shadow-sm">
+                <div class="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-1 md:mb-2">
+                    <i class="fas fa-check-circle text-green-600 text-sm md:text-xl"></i>
+                </div>
+                <span class="text-slate-800 font-bold text-xs md:text-base">۱۰۰٪ اورجینال</span>
+            </div>
+            <div class="trust-card bg-white rounded-xl p-2 md:p-4 text-center border border-slate-100 shadow-sm">
+                <div class="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-1 md:mb-2">
+                    <i class="fas fa-shield-alt text-green-600 text-sm md:text-xl"></i>
+                </div>
+                <span class="text-slate-800 font-bold text-xs md:text-base">تضمین بهترین قیمت</span>
+            </div>
+        </div>
+
+        <div class="bg-orange-50 rounded-2xl p-4 md:p-6 text-center">
+            <h3 class="cta-title text-lg md:text-xl font-black text-slate-800">اولین خریدت رو با ۱۰٪ تخفیف شروع کن</h3>
+            <div class="flex gap-2 md:gap-3 justify-center mt-3 md:mt-4">
+                <a href="./login.html"><button class="cta-btn bg-orange-500 text-white px-4 md:px-6 py-2 md:py-2.5 rounded-full font-bold hover:bg-orange-600 transition-all">ثبت‌نام</button></a>
+                <a href="./login.html"><button class="cta-btn border border-orange-500 text-orange-500 px-4 md:px-6 py-2 md:py-2.5 rounded-full font-bold hover:bg-orange-50 transition-all">ورود</button></a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-slate-900 text-white mt-12 md:mt-16 py-10 md:py-12">
+        <div class="container mx-auto px-4 md:px-6" style="max-width: 1200px;">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-10 text-right">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-10 h-10 rounded-xl flex items-center justify-center overflow-hidden">
+                            <img src="./productPic/logonomy-1776982122719.jpeg" alt="">
+                        </div>
+                        <span class="text-xl font-black"><span class="text-orange-500">DS</span>gift</span>
+                    </div>
+                    <p class="text-slate-400 text-sm leading-relaxed">فروشگاه تخصصی گیفت کارت و شارژ بازی با بهترین قیمت و تحویل آنی</p>
+                    <div class="social-icons flex gap-3 mt-5">
+                        <i class="fab fa-instagram text-xl text-slate-400 hover:text-orange-500 transition-all cursor-pointer"></i>
+                        <i class="fab fa-telegram text-xl text-slate-400 hover:text-orange-500 transition-all cursor-pointer"></i>
+                        <i class="fab fa-whatsapp text-xl text-slate-400 hover:text-orange-500 transition-all cursor-pointer"></i>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-5 text-white border-r-2 border-orange-500 pr-3">لینک‌های سریع</h4>
+                    <ul class="space-y-3 footer-links">
+                        <li><a href="#" class="text-slate-400 hover:text-orange-500 transition-all text-sm">خانه</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-orange-500 transition-all text-sm">محصولات</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-orange-500 transition-all text-sm">تعرفه‌ها</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-orange-500 transition-all text-sm">تخفیف‌ها</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-5 text-white border-r-2 border-orange-500 pr-3">خدمات مشتریان</h4>
+                    <ul class="space-y-3 footer-links">
+                        <li><a href="#" class="text-slate-400 hover:text-orange-500 transition-all text-sm">سوالات متداول</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-orange-500 transition-all text-sm">قوانین و مقررات</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-orange-500 transition-all text-sm">حریم خصوصی</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-orange-500 transition-all text-sm">تماس با ما</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-5 text-white border-r-2 border-orange-500 pr-3">نمادهای اعتماد</h4>
+                    <div class="flex gap-3 flex-wrap mb-4">
+                        <div class="bg-white/10 rounded-lg p-2 w-16 h-16 flex items-center justify-center">
+                           <img src="./productPic/enamad.png" alt="">
+                        </div>
+                        <div class="bg-white/10 rounded-lg p-2 w-16 h-16 flex items-center justify-center">
+                           <img src="./productPic/samandehi.png" alt="">
+                        </div>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                        <p class="text-slate-400 text-sm flex items-center gap-2"><i class="fas fa-phone-alt text-orange-500 w-5"></i> ۰۲۱-۱۲۳۴۵۶۷۸</p>
+                        <p class="text-slate-400 text-sm flex items-center gap-2"><i class="fas fa-envelope text-orange-500 w-5"></i> info@dsgift.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-slate-800 mt-10 pt-6 text-center">
+                <p class="text-slate-500 text-sm">© 1405 DSgift - تمامی حقوق محفوظ است</p>
+            </div>
+        </div>
+    </footer>
+       <!-- دسترسی به داکیومنت های تیلویند نداشتم و این  کد های جاوا اسکریپت  توسط هوش مصنوعی زده شده  -->
+    <script>
+        const products = [
+            { name: "شارژ پی اس ان امریکا", desc: "10 دلار - تحویل فوری", price: "1,800,000", category: "ps", image: "psn.jpg", icon: "fab fa-playstation", region: "آمریکا (USD)" },
+            { name: "PSN ۲۰ دلاری", desc: "اکانت آمریکا", price: "3,600,000", category: "ps", image: "psn.jpg", icon: "fab fa-playstation", region: "آمریکا (USD)" },
+            { name: "PS Plus 1 ماهه", desc: "اشتراک Essential", price: "1,700,000", category: "ps", image: "psn.jpg", icon: "fab fa-playstation", region: "آمریکا (USD)" },
+            { name: "گیفت کارت استیم", desc: "50 دلار", price: "8,000,000", category: "steam", image: "steam.jpg", icon: "fab fa-steam", region: "اروپا (EUR)" },
+            { name: "استیم 800 لیر", desc: "منطقه ترکیه", price: "1,600,000", category: "steam", image: "steam.jpg", icon: "fab fa-steam", region: "ترکیه (TRY)" },
+            { name: "ایکس باکس گیم پس", desc: "۱ ماهه Ultimate", price: "1,700,000", category: "xbox", image: "xbox.jpg", icon: "fab fa-xbox", region: "جهانی (Global)" },
+            { name: "ایکس باکس گیم پس", desc: "۳ ماهه", price: "3,200,000", category: "xbox", image: "xbox.jpg", icon: "fab fa-xbox", region: "آمریکا (USD)" },
+            { name: "Apple gift card", desc: "۱۰ دلار", price: "1,700,000", category: "itunes", image: "apple.jpg", icon: "fab fa-apple", region: "آمریکا (USD)" },
+            { name: "Apple gift card", desc: "۲۵ دلار", price: "3,400,000", category: "itunes", image: "apple.jpg", icon: "fab fa-apple", region: "آمریکا (USD)" }
+        ];
+
+        function renderProducts(category) {
+            const container = document.getElementById('products-container');
+            let filtered = products;
+            if (category !== 'all') filtered = products.filter(p => p.category === category);
+            
+            container.innerHTML = filtered.map(p => `
+                <div class="product-card bg-white rounded-2xl p-3 border border-slate-100 shadow-sm hover:shadow-md transition-all">
+                    <div class="product-img-wrapper">
+                        <img src="./productPic/${p.image}" alt="${p.name}" class="product-img" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\\'${p.icon} fallback-icon\\'></i>'">
+                    </div>
+                    <div class="mt-2">
+                        <h3 class="font-bold text-slate-800 text-sm">${p.name}</h3>
+                        <p class="text-slate-500 text-xs mt-0.5">${p.desc}</p>
+                        <p class="text-slate-400 text-xs mt-0.5">منطقه: <span class="font-bold text-slate-600">${p.region}</span></p>
+                        <div class="price-wrapper mt-2">
+                            <span class="text-orange-600 font-black price-text">${p.price} تومان</span>
+                            <button class="buy-btn">خرید</button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        renderProducts('all');
+
+        const tabs = document.querySelectorAll('.category-tab');
+        tabs.forEach(tab => {
+            tab.addEventListener('click', function() {
+                tabs.forEach(t => {
+                    t.classList.remove('active', 'bg-orange-500', 'text-white', 'border-orange-500');
+                    t.classList.add('bg-white', 'border-slate-200', 'text-slate-700');
+                });
+                this.classList.add('active', 'bg-orange-500', 'text-white', 'border-orange-500');
+                this.classList.remove('bg-white', 'border-slate-200', 'text-slate-700');
+                renderProducts(this.getAttribute('data-category'));
+            });
+        });
+        
+        if (window.innerWidth < 768) {
+            const toggle = document.getElementById('menuToggle');
+            if(toggle) toggle.style.display = 'block';
+        }
+        
+        const menuToggle = document.getElementById('menuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuOverlay = document.getElementById('menuOverlay');
+        const closeMenuBtn = document.getElementById('closeMenuBtn');
+        
+        function openMenu() {
+            mobileMenu.classList.add('open');
+            menuOverlay.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeMenu() {
+            mobileMenu.classList.remove('open');
+            menuOverlay.classList.remove('open');
+            document.body.style.overflow = '';
+        }
+        
+        if (menuToggle) menuToggle.addEventListener('click', openMenu);
+        if (closeMenuBtn) closeMenuBtn.addEventListener('click', closeMenu);
+        if (menuOverlay) menuOverlay.addEventListener('click', closeMenu);
+        
+        window.addEventListener('resize', function() {
+            if (window.innerWidth >= 768) {
+                closeMenu();
+                if (menuToggle) menuToggle.style.display = 'none';
+            } else {
+                if (menuToggle) menuToggle.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>
